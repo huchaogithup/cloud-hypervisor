@@ -1,0 +1,113 @@
+huachao/cli/main.go
+  434cd6f07cd703a2 1-472
+huachao/cli/proto/types.proto
+  434cd6f07cd703a2 1-68
+huachao/cli/README.md
+  434cd6f07cd703a2 1-102
+huachao/cli/proto/agent.proto
+  434cd6f07cd703a2 1-598
+huachao/cli/pb/agent.pb.go
+  434cd6f07cd703a2 1-4580
+huachao/cli/go.mod
+  434cd6f07cd703a2 1-8
+huachao/cli/.gitignore
+  434cd6f07cd703a2 1-3
+huachao/cli/pb/types.pb.go
+  434cd6f07cd703a2 1-557
+huachao/cli/pb/csi.pb.go
+  434cd6f07cd703a2 1-345
+huachao/cli/proto/oci.proto
+  434cd6f07cd703a2 1-461
+huachao/cli/proto/csi.proto
+  434cd6f07cd703a2 1-55
+huachao/cli/pb/oci.pb.go
+  434cd6f07cd703a2 1-2705
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "21d6d4a911adc6f48496ca7c7111f3c9f56755f6",
+  "prompts": {
+    "434cd6f07cd703a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e69a028-b631-4517-9873-e194ce8a972a",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 9954,
+      "total_deletions": 0,
+      "accepted_lines": 10745,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/cli/pb/csi.pb.go": {
+          "additions": 345,
+          "accepted_lines": 345
+        },
+        "huachao/cli/pb/types.pb.go": {
+          "additions": 557,
+          "accepted_lines": 557
+        },
+        "huachao/cli/go.mod": {
+          "additions": 8,
+          "accepted_lines": 8
+        },
+        "huachao/cli/proto/oci.proto": {
+          "additions": 461,
+          "accepted_lines": 461
+        },
+        "scripts/guest-bench/run.sh": {
+          "accepted_lines": 194
+        },
+        "huachao/cli/.gitignore": {
+          "additions": 3,
+          "accepted_lines": 3
+        },
+        "huachao/cli/README.md": {
+          "additions": 102,
+          "accepted_lines": 102
+        },
+        "scripts/guest-bench/guest-bench.sh": {
+          "accepted_lines": 135
+        },
+        "docs/ai-agent-sandbox-eval.md": {
+          "accepted_lines": 126
+        },
+        "huachao/cli/pb/oci.pb.go": {
+          "additions": 2705,
+          "accepted_lines": 2705
+        },
+        "huachao/cli/proto/types.proto": {
+          "additions": 68,
+          "accepted_lines": 68
+        },
+        "huachao/cli/pb/agent.pb.go": {
+          "additions": 4580,
+          "accepted_lines": 4580
+        },
+        "huachao/cli/proto/agent.proto": {
+          "additions": 598,
+          "accepted_lines": 598
+        },
+        "scripts/guest-bench/README.md": {
+          "accepted_lines": 62
+        },
+        "huachao/cli/proto/csi.proto": {
+          "additions": 55,
+          "accepted_lines": 55
+        },
+        "scripts/guest-bench/serial_send.py": {
+          "accepted_lines": 67
+        },
+        "huachao/cli/main.go": {
+          "additions": 472,
+          "accepted_lines": 472
+        },
+        "docs/perf-ch-vs-qemu.md": {
+          "accepted_lines": 207
+        }
+      }
+    }
+  }
+}
