@@ -1,0 +1,47 @@
+huachao/cli/main.go
+  434cd6f07cd703a2 9,359-422,483,523-524
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "d47b607e077f25b42a9e144ae298ed0b769ba194",
+  "prompts": {
+    "434cd6f07cd703a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e69a028-b631-4517-9873-e194ce8a972a",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 68,
+      "total_deletions": 0,
+      "accepted_lines": 859,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/cli/main.go": {
+          "additions": 68,
+          "accepted_lines": 68
+        },
+        "docs/perf-ch-vs-qemu.md": {
+          "accepted_lines": 207
+        },
+        "scripts/guest-bench/guest-bench.sh": {
+          "accepted_lines": 135
+        },
+        "scripts/guest-bench/run.sh": {
+          "accepted_lines": 194
+        },
+        "scripts/guest-bench/README.md": {
+          "accepted_lines": 62
+        },
+        "scripts/guest-bench/serial_send.py": {
+          "accepted_lines": 67
+        },
+        "docs/ai-agent-sandbox-eval.md": {
+          "accepted_lines": 126
+        }
+      }
+    }
+  }
+}
