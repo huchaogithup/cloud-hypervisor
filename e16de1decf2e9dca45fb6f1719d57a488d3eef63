@@ -1,0 +1,36 @@
+huachao/cli/ttrpc.go
+  434cd6f07cd703a2 272-283
+huachao/cli/agent.go
+  434cd6f07cd703a2 118-119,121-125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "e16de1decf2e9dca45fb6f1719d57a488d3eef63",
+  "prompts": {
+    "434cd6f07cd703a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e69a028-b631-4517-9873-e194ce8a972a",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 19,
+      "total_deletions": 3,
+      "accepted_lines": 19,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/cli/ttrpc.go": {
+          "additions": 12,
+          "accepted_lines": 12
+        },
+        "huachao/cli/agent.go": {
+          "additions": 7,
+          "deletions": 3,
+          "accepted_lines": 7
+        }
+      }
+    }
+  }
+}
