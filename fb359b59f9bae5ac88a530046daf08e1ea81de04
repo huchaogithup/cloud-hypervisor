@@ -1,0 +1,271 @@
+huachao/cli/main.go
+  8bf7b046d48f4c34 1-35
+huachao/cli/proto/agent.proto
+  434cd6f07cd703a2 1-598
+huachao/cli/README.md
+  434cd6f07cd703a2 1-127
+huachao/cli/pb/csi.pb.go
+  434cd6f07cd703a2 1-345
+huachao/cli/agent.go
+  8bf7b046d48f4c34 1-209
+huachao/cli/cmd_low.go
+  8bf7b046d48f4c34 1-274
+huachao/cli/pb/types.pb.go
+  434cd6f07cd703a2 1-557
+huachao/cli/ttrpc.go
+  8bf7b046d48f4c34 1-283
+huachao/cli/go.mod
+  8bf7b046d48f4c34 1-14
+huachao/cli/cmd_high.go
+  8bf7b046d48f4c34 1-412
+huachao/cli/pb/agent.pb.go
+  434cd6f07cd703a2 1-4580
+huachao/cli/pb/oci.pb.go
+  434cd6f07cd703a2 1-2705
+huachao/cli/proto/oci.proto
+  434cd6f07cd703a2 1-461
+huachao/cli/.gitignore
+  434cd6f07cd703a2 1-3
+huachao/cli/console.go
+  8bf7b046d48f4c34 1-90
+huachao/cli/proto/types.proto
+  434cd6f07cd703a2 1-68
+huachao/cli/proto/csi.proto
+  434cd6f07cd703a2 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "fb359b59f9bae5ac88a530046daf08e1ea81de04",
+  "prompts": {
+    "434cd6f07cd703a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e69a028-b631-4517-9873-e194ce8a972a",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 10447,
+      "total_deletions": 10973,
+      "accepted_lines": 10290,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "scripts/guest-bench/run.sh": {
+          "additions": 210,
+          "deletions": 16,
+          "accepted_lines": 194
+        },
+        "huachao/proto/types.proto": {
+          "deletions": 68
+        },
+        "huachao/cli/proto/oci.proto": {
+          "additions": 461,
+          "accepted_lines": 461
+        },
+        "huachao/pb/agent.pb.go": {
+          "deletions": 4580
+        },
+        "huachao/cmd_high.go": {
+          "deletions": 412
+        },
+        "huachao/main.go": {
+          "deletions": 35
+        },
+        "huachao/pb/csi.pb.go": {
+          "deletions": 345
+        },
+        "huachao/cli/pb/csi.pb.go": {
+          "additions": 345,
+          "accepted_lines": 345
+        },
+        "huachao/cmd_low.go": {
+          "deletions": 274
+        },
+        "huachao/proto/csi.proto": {
+          "deletions": 55
+        },
+        "huachao/agent.go": {
+          "deletions": 209
+        },
+        "huachao/README.md": {
+          "deletions": 127
+        },
+        "huachao/ttrpc.go": {
+          "deletions": 283
+        },
+        "huachao/cli/.gitignore": {
+          "additions": 3,
+          "accepted_lines": 3
+        },
+        "huachao/console.go": {
+          "deletions": 90
+        },
+        "huachao/pb/types.pb.go": {
+          "deletions": 557
+        },
+        "huachao/cli/pb/agent.pb.go": {
+          "additions": 4580,
+          "accepted_lines": 4580
+        },
+        "huachao/cli/proto/types.proto": {
+          "additions": 68,
+          "accepted_lines": 68
+        },
+        "huachao/cli/proto/csi.proto": {
+          "additions": 55,
+          "accepted_lines": 55
+        },
+        "huachao/cli/pb/oci.pb.go": {
+          "additions": 2705,
+          "accepted_lines": 2705
+        },
+        "huachao/go.mod": {
+          "deletions": 14
+        },
+        "huachao/cli/pb/types.pb.go": {
+          "additions": 557,
+          "accepted_lines": 557
+        },
+        "huachao/proto/oci.proto": {
+          "deletions": 461
+        },
+        "docs/ai-agent-sandbox-eval.md": {
+          "additions": 211,
+          "deletions": 85,
+          "accepted_lines": 126
+        },
+        "scripts/guest-bench/serial_send.py": {
+          "additions": 67,
+          "accepted_lines": 67
+        },
+        "huachao/cli/README.md": {
+          "additions": 127,
+          "accepted_lines": 127
+        },
+        "huachao/proto/agent.proto": {
+          "deletions": 598
+        },
+        "huachao/.gitignore": {
+          "deletions": 3
+        },
+        "docs/perf-ch-vs-qemu.md": {
+          "additions": 260,
+          "deletions": 53,
+          "accepted_lines": 207
+        },
+        "huachao/pb/oci.pb.go": {
+          "deletions": 2705
+        },
+        "scripts/guest-bench/guest-bench.sh": {
+          "additions": 138,
+          "deletions": 3,
+          "accepted_lines": 135
+        },
+        "huachao/cli/proto/agent.proto": {
+          "additions": 598,
+          "accepted_lines": 598
+        },
+        "scripts/guest-bench/README.md": {
+          "additions": 62,
+          "accepted_lines": 62
+        }
+      }
+    },
+    "8bf7b046d48f4c34": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a12d71e2-ac83-4247-b161-396122dea95d",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 12134,
+      "total_deletions": 1,
+      "accepted_lines": 1317,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/proto/agent.proto": {
+          "additions": 598
+        },
+        "huachao/.gitignore": {
+          "additions": 3
+        },
+        "huachao/proto/csi.proto": {
+          "additions": 55
+        },
+        "huachao/agent.go": {
+          "additions": 209
+        },
+        "huachao/main.go": {
+          "additions": 35
+        },
+        "huachao/proto/types.proto": {
+          "additions": 68
+        },
+        "huachao/cli/agent.go": {
+          "additions": 209,
+          "accepted_lines": 209
+        },
+        "huachao/pb/csi.pb.go": {
+          "additions": 345
+        },
+        "huachao/pb/oci.pb.go": {
+          "additions": 2705
+        },
+        "huachao/cli/console.go": {
+          "additions": 90,
+          "accepted_lines": 90
+        },
+        "huachao/proto/oci.proto": {
+          "additions": 461
+        },
+        "huachao/cmd_low.go": {
+          "additions": 274
+        },
+        "huachao/cli/go.mod": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "huachao/cli/main.go": {
+          "additions": 35,
+          "accepted_lines": 35
+        },
+        "huachao/cli/cmd_high.go": {
+          "additions": 412,
+          "accepted_lines": 412
+        },
+        "huachao/pb/agent.pb.go": {
+          "additions": 4580
+        },
+        "huachao/README.md": {
+          "additions": 127
+        },
+        "huachao/cmd_high.go": {
+          "additions": 412
+        },
+        "huachao/ttrpc.go": {
+          "additions": 283
+        },
+        "huachao/cli/ttrpc.go": {
+          "additions": 283,
+          "accepted_lines": 283
+        },
+        "huachao/cli/cmd_low.go": {
+          "additions": 274,
+          "accepted_lines": 274
+        },
+        "huachao/go.mod": {
+          "additions": 15,
+          "deletions": 1
+        },
+        "huachao/pb/types.pb.go": {
+          "additions": 557
+        },
+        "huachao/console.go": {
+          "additions": 90
+        }
+      }
+    }
+  }
+}
