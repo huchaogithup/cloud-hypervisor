@@ -1,0 +1,44 @@
+huachao/cli/cmd_high.go
+  434cd6f07cd703a2 53-54,69-78,97-101
+huachao/cli/cmd_low.go
+  434cd6f07cd703a2 65
+huachao/cli/agent.go
+  434cd6f07cd703a2 65-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "b5b2218dca13a74b5f3be0046e4cf9781161d99c",
+  "prompts": {
+    "434cd6f07cd703a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e69a028-b631-4517-9873-e194ce8a972a",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 48,
+      "total_deletions": 6,
+      "accepted_lines": 48,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/cli/cmd_high.go": {
+          "additions": 17,
+          "deletions": 2,
+          "accepted_lines": 17
+        },
+        "huachao/cli/cmd_low.go": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "huachao/cli/agent.go": {
+          "additions": 30,
+          "deletions": 3,
+          "accepted_lines": 30
+        }
+      }
+    }
+  }
+}
