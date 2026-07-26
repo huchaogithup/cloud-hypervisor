@@ -1,0 +1,74 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "3e2ef034bd400d9ce0b0abb47b33a3deaaf5643f",
+  "prompts": {
+    "1f0fc7cd6491ce2f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e675950b-b122-4d72-aba6-1b27ce1520ff",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 595,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/design-v3.md": {
+          "accepted_lines": 595
+        }
+      }
+    },
+    "434cd6f07cd703a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e69a028-b631-4517-9873-e194ce8a972a",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 453,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/perf/bench.sh": {
+          "accepted_lines": 139
+        },
+        "huachao/perf/launch-commands.md": {
+          "accepted_lines": 210
+        },
+        "huachao/perf/send.py": {
+          "accepted_lines": 75
+        },
+        "huachao/perf/perf-ch-vs-qemu.md": {
+          "accepted_lines": 29
+        }
+      }
+    },
+    "9a36883a98e81ea6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "71434fe8-a24f-453e-a066-ba7f70fe7617",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 335,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/design-v3.md": {
+          "accepted_lines": 51
+        },
+        "huachao/cli/ARCHITECTURE.md": {
+          "accepted_lines": 284
+        }
+      }
+    }
+  }
+}
