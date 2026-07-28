@@ -1,0 +1,48 @@
+huachao/docs/superpowers/plans/2026-07-28-cube1024-cli-complete.md
+  1fbd87908b4d3c9e 1-2116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "973b6b234048670c4a5bb1fe0ac4920fe6dbcbdf",
+  "prompts": {
+    "1fbd87908b4d3c9e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "757d3215-8fc2-4910-963d-03eae76234bf",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 3924,
+      "total_deletions": 166,
+      "accepted_lines": 3924,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/design-v3-revised.md": {
+          "additions": 677,
+          "accepted_lines": 677
+        },
+        "huachao/docs/design-v5.md": {
+          "deletions": 166
+        },
+        "huachao/cli/ARCHITECTURE.md": {
+          "additions": 284,
+          "accepted_lines": 284
+        },
+        "huachao/docs/design-v6.md": {
+          "additions": 201,
+          "accepted_lines": 201
+        },
+        "huachao/design-v3.md": {
+          "additions": 646,
+          "accepted_lines": 646
+        },
+        "huachao/docs/superpowers/plans/2026-07-28-cube1024-cli-complete.md": {
+          "additions": 2116,
+          "accepted_lines": 2116
+        }
+      }
+    }
+  }
+}
