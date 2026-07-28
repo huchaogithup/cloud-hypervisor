@@ -1,0 +1,52 @@
+huachao/cli/agent_test.go
+  1fbd87908b4d3c9e 1-52
+huachao/cli/agent.go
+  1fbd87908b4d3c9e 91-99,108,121-132,218-232
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "3269e686085a6dacd4a804226f43ac17d257da7d",
+  "prompts": {
+    "1fbd87908b4d3c9e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "757d3215-8fc2-4910-963d-03eae76234bf",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 90,
+      "total_deletions": 2,
+      "accepted_lines": 1899,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/cli/agent.go": {
+          "additions": 37,
+          "accepted_lines": 37
+        },
+        "huachao/docs/design-v6.md": {
+          "accepted_lines": 201
+        },
+        "huachao/design-v3-revised.md": {
+          "accepted_lines": 677
+        },
+        "huachao/design-v3.md": {
+          "accepted_lines": 646
+        },
+        "huachao/cli/agent_test.go": {
+          "additions": 52,
+          "accepted_lines": 52
+        },
+        "huachao/cli/ARCHITECTURE.md": {
+          "accepted_lines": 284
+        },
+        "huachao/.superpowers/sdd/progress.md": {
+          "additions": 1,
+          "deletions": 2,
+          "accepted_lines": 2
+        }
+      }
+    }
+  }
+}
