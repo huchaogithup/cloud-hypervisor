@@ -1,0 +1,77 @@
+huachao/cli/cmd_high_test.go
+  1fbd87908b4d3c9e 1-54
+huachao/cli/ARCHITECTURE.md
+  1fbd87908b4d3c9e 272
+huachao/cli/agent_test.go
+  1fbd87908b4d3c9e 36,40
+huachao/cli/cmd_high.go
+  1fbd87908b4d3c9e 174,707-718,731,733
+huachao/cli/cmd_low.go
+  1fbd87908b4d3c9e 570,598
+huachao/cli/agent.go
+  1fbd87908b4d3c9e 32-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "d24cba41366bcff903952a3a1855631659bc49cd",
+  "prompts": {
+    "1fbd87908b4d3c9e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "757d3215-8fc2-4910-963d-03eae76234bf",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 81,
+      "total_deletions": 12,
+      "accepted_lines": 1611,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/.superpowers/sdd/progress.md": {
+          "additions": 2,
+          "accepted_lines": 9
+        },
+        "huachao/cli/cmd_high.go": {
+          "additions": 17,
+          "deletions": 5,
+          "accepted_lines": 16
+        },
+        "huachao/cli/agent.go": {
+          "additions": 3,
+          "deletions": 2,
+          "accepted_lines": 3
+        },
+        "huachao/design-v3.md": {
+          "accepted_lines": 646
+        },
+        "huachao/design-v3-revised.md": {
+          "accepted_lines": 677
+        },
+        "huachao/cli/ARCHITECTURE.md": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "huachao/cli/cmd_low.go": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "huachao/cli/agent_test.go": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "huachao/cli/cmd_high_test.go": {
+          "additions": 54,
+          "accepted_lines": 54
+        },
+        "huachao/docs/design-v6.md": {
+          "accepted_lines": 201
+        }
+      }
+    }
+  }
+}
