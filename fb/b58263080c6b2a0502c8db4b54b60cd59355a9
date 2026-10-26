@@ -1,0 +1,43 @@
+docs/building.md
+  a7b96b404886c9ed 60-73
+docs/rbd.md
+  a7b96b404886c9ed 1-165
+docs/landlock.md
+  a7b96b404886c9ed 133-142
+docs/disk_locking.md
+  a7b96b404886c9ed 62-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "fbb58263080c6b2a0502c8db4b54b60cd59355a9",
+  "prompts": {
+    "a7b96b404886c9ed": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8396359-6db9-42d5-82d8-7f82fabb8160",
+        "model": "deepseek-flash"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 198,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "docs/disk_locking.md": {
+          "accepted_lines": 9
+        },
+        "docs/landlock.md": {
+          "accepted_lines": 10
+        },
+        "docs/rbd.md": {
+          "accepted_lines": 165
+        },
+        "docs/building.md": {
+          "accepted_lines": 28
+        }
+      }
+    }
+  }
+}
