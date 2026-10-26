@@ -1,0 +1,268 @@
+block/src/formats/rbd/sys.rs
+  a7b96b404886c9ed 1-44
+block/src/formats/qcow/mod.rs
+  a7b96b404886c9ed 292-293
+virtio-devices/src/block.rs
+  a7b96b404886c9ed 750,795,920,970,1000-1007,1043-1050,1098-1104,1106,1108-1109,1111-1114,1117-1119,1122,1248-1252
+resources/Dockerfile
+  a7b96b404886c9ed 45-47
+block/src/formats/rbd_uri.rs
+  a7b96b404886c9ed 1-176
+block/build.rs
+  a7b96b404886c9ed 1-20
+block/src/formats/raw/mod.rs
+  a7b96b404886c9ed 84-85
+block/src/disk_file.rs
+  a7b96b404886c9ed 57-61
+vmm/Cargo.toml
+  a7b96b404886c9ed 36
+block/src/formats/vmdk/mod.rs
+  a7b96b404886c9ed 54-55,261
+block/src/formats/rbd/async_io.rs
+  a7b96b404886c9ed 1-375
+block/Cargo.toml
+  a7b96b404886c9ed 11,22-23
+vmm/src/api/openapi/cloud-hypervisor.yaml
+  a7b96b404886c9ed 1246,1304-1309
+cloud-hypervisor/tests/integration.rs
+  a7b96b404886c9ed 1567
+vmm/src/device_manager.rs
+  a7b96b404886c9ed 45,2893-2897,2983
+block/src/formats/vhdx/mod.rs
+  a7b96b404886c9ed 84-87
+block/src/formats/rbd/mod.rs
+  a7b96b404886c9ed 1-131
+fuzz/fuzz_targets/block.rs
+  a7b96b404886c9ed 220
+virtio-devices/src/seccomp_filters.rs
+  a7b96b404886c9ed 21,152-214,398
+vmm/src/lib.rs
+  a7b96b404886c9ed 397-398
+block/src/formats/vhd/mod.rs
+  a7b96b404886c9ed 81-82
+vmm/src/config.rs
+  a7b96b404886c9ed 9,18,244-261,1601-1602,1629-1631,1726-1729,1791-1793,1854-1888,4908-4910,5042-5054,6506-6584
+vmm/src/seccomp_filters.rs
+  a7b96b404886c9ed 748-777,806-809,814-815,818-819,842-843,861-862,876-877,886-887,918-919
+vmm/src/vm_config.rs
+  a7b96b404886c9ed 17,495-500,508-515,517-529,531-540
+block/src/formats/mod.rs
+  a7b96b404886c9ed 12-14
+block/src/factory.rs
+  a7b96b404886c9ed 25-26,34-44,54,85-99,121,275,349
+block/src/lib.rs
+  a7b96b404886c9ed 26,35,104-107,123-144,517,530,537,551,608,746-762
+Cargo.toml
+  a7b96b404886c9ed 130-131
+block/src/formats/rbd/image.rs
+  a7b96b404886c9ed 1-364
+cloud-hypervisor/Cargo.toml
+  a7b96b404886c9ed 57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "e75bbd013c81189f02c0e3c42c60d89955a022ab",
+  "prompts": {
+    "1fbd87908b4d3c9e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "757d3215-8fc2-4910-963d-03eae76234bf",
+        "model": "glm-5.2"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1536,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "huachao/.superpowers/sdd/progress.md": {
+          "accepted_lines": 12
+        },
+        "huachao/design-v3.md": {
+          "accepted_lines": 646
+        },
+        "huachao/design-v3-revised.md": {
+          "accepted_lines": 677
+        },
+        "huachao/docs/design-v6.md": {
+          "accepted_lines": 201
+        }
+      }
+    },
+    "a7b96b404886c9ed": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8396359-6db9-42d5-82d8-7f82fabb8160",
+        "model": "deepseek-flash"
+      },
+      "human_author": "huachao01",
+      "messages": [],
+      "total_additions": 1890,
+      "total_deletions": 120,
+      "accepted_lines": 1802,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "virtio-devices/src/seccomp_filters.rs": {
+          "additions": 65,
+          "accepted_lines": 65
+        },
+        "virtio-devices/src/block.rs": {
+          "additions": 48,
+          "deletions": 18,
+          "accepted_lines": 44
+        },
+        "vmm/src/device_manager.rs": {
+          "additions": 8,
+          "deletions": 2,
+          "accepted_lines": 7
+        },
+        "docs/rbd.md": {
+          "additions": 167,
+          "deletions": 2,
+          "accepted_lines": 165
+        },
+        "block/build.rs": {
+          "additions": 21,
+          "deletions": 1,
+          "accepted_lines": 20
+        },
+        "block/src/lib.rs": {
+          "additions": 54,
+          "deletions": 1,
+          "accepted_lines": 53
+        },
+        "block/src/formats/raw/mod.rs": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "resources/Dockerfile": {
+          "additions": 4,
+          "deletions": 1,
+          "accepted_lines": 3
+        },
+        "docs/disk_locking.md": {
+          "additions": 9,
+          "accepted_lines": 9
+        },
+        "block/src/formats/vmdk/mod.rs": {
+          "additions": 3,
+          "deletions": 3,
+          "accepted_lines": 3
+        },
+        "vmm/src/lib.rs": {
+          "additions": 2,
+          "accepted_lines": 2
+        },
+        "block/src/formats/qcow/mod.rs": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "docs/building.md": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "block/src/formats/mod.rs": {
+          "additions": 3,
+          "accepted_lines": 3
+        },
+        "vmm/src/seccomp_filters.rs": {
+          "additions": 52,
+          "deletions": 4,
+          "accepted_lines": 48
+        },
+        "block/src/formats/rbd/async_io.rs": {
+          "additions": 385,
+          "deletions": 10,
+          "accepted_lines": 375
+        },
+        "block/src/formats/rbd/mod.rs": {
+          "additions": 133,
+          "deletions": 2,
+          "accepted_lines": 131
+        },
+        "Cargo.toml": {
+          "additions": 2,
+          "accepted_lines": 2
+        },
+        "vmm/src/api/openapi/cloud-hypervisor.yaml": {
+          "additions": 7,
+          "deletions": 1,
+          "accepted_lines": 7
+        },
+        "block/src/disk_file.rs": {
+          "additions": 5,
+          "deletions": 1,
+          "accepted_lines": 5
+        },
+        "block/src/formats/rbd_uri.rs": {
+          "additions": 184,
+          "deletions": 8,
+          "accepted_lines": 176
+        },
+        "block/src/formats/vhd/mod.rs": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "block/src/formats/vhdx/mod.rs": {
+          "additions": 4,
+          "deletions": 2,
+          "accepted_lines": 4
+        },
+        "cloud-hypervisor/tests/integration.rs": {
+          "additions": 1,
+          "accepted_lines": 1
+        },
+        "docs/landlock.md": {
+          "additions": 10,
+          "accepted_lines": 10
+        },
+        "vmm/src/config.rs": {
+          "additions": 167,
+          "deletions": 5,
+          "accepted_lines": 164
+        },
+        "block/src/factory.rs": {
+          "additions": 35,
+          "deletions": 3,
+          "accepted_lines": 32
+        },
+        "block/Cargo.toml": {
+          "additions": 3,
+          "accepted_lines": 3
+        },
+        "block/src/formats/rbd/image.rs": {
+          "additions": 401,
+          "deletions": 37,
+          "accepted_lines": 364
+        },
+        "fuzz/fuzz_targets/block.rs": {
+          "additions": 1,
+          "accepted_lines": 1
+        },
+        "cloud-hypervisor/Cargo.toml": {
+          "additions": 1,
+          "accepted_lines": 1
+        },
+        "block/src/formats/rbd/sys.rs": {
+          "additions": 48,
+          "deletions": 4,
+          "accepted_lines": 44
+        },
+        "vmm/Cargo.toml": {
+          "additions": 1,
+          "accepted_lines": 1
+        },
+        "vmm/src/vm_config.rs": {
+          "additions": 46,
+          "deletions": 9,
+          "accepted_lines": 39
+        }
+      }
+    }
+  }
+}
