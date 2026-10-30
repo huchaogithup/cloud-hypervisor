@@ -4,7 +4,7 @@ block/src/io/async_io/uring_data_io.rs
 {
   "schema_version": "authorship/3.0.0",
   "git_ai_version": "1.2.8-ntes.9",
-  "base_commit_sha": "6499689a9cd94a7a6afa4167b16119ab6c3f05cf",
+  "base_commit_sha": "c9006b0f6cd5edc82666d6e4cfca727b95368a04",
   "prompts": {
     "be85dd934912f78c": {
       "agent_id": {
@@ -14,15 +14,15 @@ block/src/io/async_io/uring_data_io.rs
       },
       "human_author": "huachao01",
       "messages": [],
-      "total_additions": 139,
-      "total_deletions": 82,
-      "accepted_lines": 137,
+      "total_additions": 143,
+      "total_deletions": 86,
+      "accepted_lines": 134,
       "overriden_lines": 0,
       "per_file_stats": {
         "block/src/io/async_io/uring_data_io.rs": {
-          "additions": 139,
-          "deletions": 82,
-          "accepted_lines": 137
+          "additions": 143,
+          "deletions": 86,
+          "accepted_lines": 141
         }
       }
     }
